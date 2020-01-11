@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "code_timer"
-  s.version =    "1.0.1"
+  s.version =    "1.0.2"
   s.summary =     "Code execution timer"
   s.description = "This is a gem that provides a simple interface for "\
                   "code runtimes."
