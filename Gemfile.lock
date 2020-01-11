@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    code_timer (1.0.2)
+    code_timer (1.1.0)
 
 GEM
   remote: http://rubygems.org/
