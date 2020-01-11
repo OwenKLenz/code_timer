@@ -7,7 +7,7 @@ class CodeTimer
       raise NoBlockForTimerError.new("Must include a block with calls to CodeTimer::timer.")
     end
 
-    puts "Executing #{code_name ? code_name : code}..." if code_name
+    puts "Executing #{code_name ? code_name.downcase : "code"}..."
     start_time = Time.now
     number_of_executions.times do
       yield
