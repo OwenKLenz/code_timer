@@ -13,7 +13,3 @@ class CodeTimer
     puts "The code ran in #{Time.now - start_time} seconds."
   end
 end
-
-CodeTimer.timer ("cheese") do
-  puts "cheese"
-end
