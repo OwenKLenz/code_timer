@@ -1,8 +1,7 @@
 source "http://rubygems.org"
 
-ruby '2.6.0'
+ruby '2.7.1'
 
 gem 'minitest'
 gem 'rake'
 
-gemspec
